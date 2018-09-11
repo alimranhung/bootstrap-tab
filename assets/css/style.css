@@ -1,0 +1,90 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding{padding:80px 0;}
+
+.featured-bg-1{background-image: url(../img/food-bg-1.png);}
+.featured-bg-2{background-image: url(../img/nature-img-1.jpg);}
+.featured-bg-3{background-image: url(../img/nature-img-2.jpg);}
+.featured-bg-4{background-image: url(../img/nature-img-3.jpg);}
+
+.featured-list li a {
+    display:  block;
+    color: #333;
+    font-weight:  600;
+    margin: 0 12px;
+    border-bottom: 2px solid #fff;
+    padding-bottom:  5px;
+}
+.featured-list {
+    border: 0;
+}
+
+
+.featured-list li a.active {
+    border-color:  #333;
+}
+
+.featured-bg {
+    background-size:  cover;
+    background-position: center;
+    background-color:  #ddd;
+    position:  absolute;
+    width: 52%;
+    height: 100%;
+}
+
+.single-featured-item {
+    position:  relative;
+    width:  100%;
+    height: 463px;
+}
+
+.featured-text {
+    padding-left: 617px;
+}
+
+.featured-text h2 {
+    color: #999;
+}
+
+.featured-text h3 {
+    font-size: 23px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: red;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
