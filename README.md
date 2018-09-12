@@ -2,10 +2,10 @@
 bootstrap 4 and bootstrap 3 differance billow.
 
 <!--This is Bootstrap 4 -->
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item"><a class="active" id="pills-home-tab" data-toggle="pill" href="#pills-home">Home</a></li>
-  <li class="nav-item"><a id="pills-profile-tab" data-toggle="pill" href="#pills-profile" >Profile</a></li>
-  <li class="nav-item"><a id="pills-contact-tab" data-toggle="pill" href="#pills-contact" >Contact</a></li>
+<ul class="nav nav-tabs">
+  <li><a class="active" data-toggle="tab" href="#pills-home">Home</a></li>
+  <li><a data-toggle="tab" href="#pills-profile">Profile</a></li>
+  <li><a data-toggle="tab" href="#pills-contact">Contact</a></li>
 </ul>
 
 <div class="tab-content">
@@ -17,7 +17,7 @@ bootstrap 4 and bootstrap 3 differance billow.
 
 <!--This is Bootstrap 3 -->
  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs">
     <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
     <li><a href="#profile" data-toggle="tab">Profile</a></li>
     <li ><a href="#messages" data-toggle="tab">Messages</a></li>
@@ -26,8 +26,8 @@ bootstrap 4 and bootstrap 3 differance billow.
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div class="tab-pane active" id="home">...</div>
-    <div class="tab-pane" id="profile">...</div>
-    <div class="tab-pane" id="messages">...</div>
-    <div class="tab-pane" id="settings">...</div>
+    <div class="tab-pane fade in active" id="home">...</div>
+    <div class="tab-pane fade" id="profile">...</div>
+    <div class="tab-pane fade" id="messages">...</div>
+    <div class="tab-pane fade" id="settings">...</div>
   </div>
